@@ -1,0 +1,106 @@
+.site-layout-content {
+    min-height: 400px;
+    padding: 24px;
+    background: #fff;
+}
+#components-layout-demo-top .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.beer-image {
+    width: 200px;
+    height: 200px;
+}
+
+.add-btn:hover {
+    color: #fff;
+}
+
+.sort-btn {
+    display: flex;
+}
+
+.sort-btn1 {
+    margin-right: 5px;
+}
+
+.add-beer {
+    margin-top: 5px;
+}
+
+.site-layout-content button {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.site-layout-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    min-height: 300px;
+}
+
+.site-layout-content div ul {
+    padding-left: 0;
+    width: 75%;
+}
+
+.site-layout-content li {
+    list-style: none;
+}
+
+.site-layout-content li span {
+    font-weight: 500;
+}
+
+.form-for-login {
+    width: 70%;
+    margin: 15px 0 0 0;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 15px;
+}
+
+.beer-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.edit {
+    margin-left: 15px;
+}
+
+.beer-details img {
+    height: 450px;
+    width: 250px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form button {
+    margin-top: 5px;
+}
+
